@@ -1,0 +1,12 @@
+Source: ros-indigo-core-moos
+Section: misc
+Priority: extra
+Maintainer: Paul Newman <pnewman@robots.xo.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), cmake, doxygen
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-core-moos
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: Core MOOS
